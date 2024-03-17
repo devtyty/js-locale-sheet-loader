@@ -1,4 +1,4 @@
-# @megabee/js-locale-sheet-loader
+# @megabeedev/js-locale-sheet-loader
 
 ## Getting started
 
@@ -11,45 +11,50 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 - with **npm**
 
 ```sh
-npm install --save-dev @megabee/js-locale-sheet-loader
+npm install --save-dev @megabeedev/js-locale-sheet-loader
 ```
 
 - with **yarn**
 
 ```sh
-yarn add --dev @megabee/js-locale-sheet-loader
+yarn add --dev @megabeedev/js-locale-sheet-loader
 ```
 
+## 🔱 Your sheet format
+[Google sheet example](https://docs.google.com/spreadsheets/d/1qH_wY1khh48iGCmIrRwXhOdTR-21aK1zKrExptOFECY/edit#gid=0)
+
+Google sheet link: https://docs.google.com/spreadsheets/d/**1qH_wY1khh48iGCmIrRwXhOdTR-21aK1zKrExptOFECY**/edit#gid=**0**
+
+```javascript
+ssid: 1qH_wY1khh48iGCmIrRwXhOdTR-21aK1zKrExptOFECY
+sheetId: 0
+```
+
+
 ## 🔱 Multiple module (all grid sheet)
-#
 
 1. Create `apiKey` on google console with your account
-2. Get ssid on your url google sheet or sheet id
-    > Format: `https://docs.google.com/spreadsheets/d/{{your_ssid}}/edit#gid={{your_sheet_id}}`
-3. Generate
+2. Generate
     ```javascript
-    const {LanguagesHelper} = require("@megabee/js-locale-sheet-loader");
+        const {LanguagesHelper} = require("@megabeedev/js-locale-sheet-loader");
 
-    LanguagesHelper.loadLangFromSheet({
-        ssid: "...your ssid",
-        apiKey: "...your google api key",
-        defaultLang: "en",
-    }).then((dataLanguage) => {
-        console.log("result: ", dataLanguage);
+        LanguagesHelper.loadLangFromSheet({
+            ssid: "...your ssid",
+            apiKey: "...your google api key",
+            defaultLang: "en",
+        }).then((dataLanguage) => {
+            console.log("result: ", dataLanguage);
 
-        /// You can do something with this data
-        /// Generate to your file translation
-    });
+            /// You can do something with this data
+            /// Generate to your file translation
+        });
     ```
 
 ## 🔱 Single grid sheet
-#
 
-1. Get ssid on your url google sheet or sheet id
-    > Format: https://docs.google.com/spreadsheets/d/`[your ssid]`/edit#gid=`[sheet id]`
-3. Generate
+1. Generate
     ```javascript
-    const {LanguagesHelper} = require("@megabee/js-locale-sheet-loader");
+    const {LanguagesHelper} = require("@megabeedev/js-locale-sheet-loader");
 
     LanguagesHelper.loadLangFromGridSheet({
         ssid: "your ssid",
@@ -61,11 +66,11 @@ yarn add --dev @megabee/js-locale-sheet-loader
         /// Generate to your file translation
     });
     ```
-4. Generate with your output folder
+2. Generate with your output folder
     ```javascript
     const {
         generateLangFromGridSheet,
-    } = require("@megabee/js-locale-sheet-loader");
+    } = require("@megabeedev/js-locale-sheet-loader");
 
     generateLangFromGridSheet({
         defaultLang: "en",
