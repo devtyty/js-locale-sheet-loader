@@ -5,7 +5,7 @@
   "author": "https://github.com/devtyty",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devtyty/js-locale-sheet-loader"
+    "url": "git+https://github.com/devtyty/js-locale-sheet-loader.git"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
