@@ -1,6 +1,4 @@
 node_modules
-yarn.lock
-package-lock.json
 .yarn-integrity
 yarn-error.
 lib/*
