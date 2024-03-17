@@ -20,6 +20,7 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org
           scope: "@megabeedev"
+      - run: npm install
       - run: npm ci
       - run: npm publish --access public
         env:
