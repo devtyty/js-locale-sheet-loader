@@ -1,0 +1,32 @@
+{
+  "name": "@megabee/js-locale-sheet-loader",
+  "version": "0.0.1",
+  "description": "Generator localization with google sheet",
+  "author": "https://github.com/devtyty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devtyty/js-locale-sheet-loader"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "sheet generator",
+    "js locale",
+    "locale generator",
+    "sheet loader"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.11.28",
+    "lodash": "^4.17.21",
+    "typescript": "^5.4.2"
+  }
+}
