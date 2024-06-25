@@ -23,7 +23,7 @@ yarn add --dev @megabeedev/js-locale-sheet-loader
 ## 🔱 Your sheet format
 [Google sheet example](https://docs.google.com/spreadsheets/d/1qH_wY1khh48iGCmIrRwXhOdTR-21aK1zKrExptOFECY/edit#gid=0)
 
-Google sheet link: https://docs.google.com/spreadsheets/d/**1qH_wY1khh48iGCmIrRwXhOdTR-21aK1zKrExptOFECY**/edit#gid=**0**
+Google sheet link: https://docs.google.com/spreadsheets/d/1qH_wY1khh48iGCmIrRwXhOdTR-21aK1zKrExptOFECY/edit#gid=0
 
 ```javascript
 ssid: 1qH_wY1khh48iGCmIrRwXhOdTR-21aK1zKrExptOFECY
