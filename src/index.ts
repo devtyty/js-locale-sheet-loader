@@ -85,7 +85,15 @@ export async function generateLangFromGridSheet(
 
   console.log(
     ColorsConsole.FgGreen,
-    "Generated languages successfully! ",
+    "Generated languages successfully!",
     ColorsConsole.Reset
   );
 }
+
+export type IConfig = {
+  /**Google sheet id */
+  ssid: string;
+  sheetId: string;
+  defaultLang: string;
+  outputDir: string;
+};
