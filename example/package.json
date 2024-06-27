@@ -1,13 +1,10 @@
 {
   "name": "js-locale-sheet-loader",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "type": "commonjs",
   "license": "MIT",
   "scripts": {
-    "gen-language-sheet": "node gen-language-from-sheet.js"
-  },
-  "devDependencies": {
-    "@megabee/js-locale-sheet-loader": "../"
+    "fetch-language": "npx ../"
   }
 }

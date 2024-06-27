@@ -1,6 +1,6 @@
 {
   "name": "@megabeedev/js-locale-sheet-loader",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Generator localization with google sheet",
   "author": "https://github.com/devtyty",
   "repository": {
@@ -17,6 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "bin": "bin/cli",
   "keywords": [
     "sheet generator",
     "js locale",
