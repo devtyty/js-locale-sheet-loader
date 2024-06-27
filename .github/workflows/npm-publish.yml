@@ -20,8 +20,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20
-          registry-url: https://registry.npmjs.org
-          scope: "@megabeedev"
+          registry-url: https://registry.npmjs.org/@megabeedev/js-locale-sheet-loader
+          # scope: "@megabeedev"
       - run: npm install
       - run: npm ci
       - name: Replace values
