@@ -1,4 +1,4 @@
-# @megabeedev/js-locale-sheet-loader
+# Support generate sheet's data for i18n multilang format
 
 ## Getting started
 
@@ -90,3 +90,7 @@ For open source projects, say how it is licensed.
 ## Project status
 
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+---
+
+<a href="https://buymeacoffee.com/megabee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" />

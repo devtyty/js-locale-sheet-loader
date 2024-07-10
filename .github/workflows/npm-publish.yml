@@ -15,8 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: cat ./.npmrc
-      - run: cat ./.npmrc
       - uses: actions/setup-node@v3
         with:
           node-version: 20
@@ -24,6 +22,7 @@ jobs:
           # scope: "@megabeedev"
       - run: npm install
       - run: npm ci
+      - run: npm run build
       - name: Replace values
         shell: bash
         env: 
